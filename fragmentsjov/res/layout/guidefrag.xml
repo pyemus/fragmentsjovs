@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragmenter.FrameLayoutPct xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/guidefrag"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFF00"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/hjem_knap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hjem(tilbage til aktivitet)" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meget text Meget text Meget text Meget text Meget text Meget text 
+            Meget text Meget text Meget text Meget text Meget text Meget text Meget text 
+            Meget text Meget text Meget text Meget text Meget text Meget text Meget text 
+            Meget text Meget text Meget text Meget text Meget text Meget text Meget text " />
+
+        <ImageView
+            android:id="@+id/next_pil"
+            android:layout_width="104dp"
+            android:layout_height="155dp"
+            android:rotation="0.0"
+            android:src="@drawable/right_arrow" />
+    </LinearLayout>
+
+</fragmenter.FrameLayoutPct>
